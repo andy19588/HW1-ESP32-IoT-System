@@ -9,6 +9,21 @@ This project is an IoT (Internet of Things) system that reads temperature and hu
 - **Python Data Server**: A Python script (`esp32_to_sqlite.py`) listens to the serial port, parses the real-time data, and automatically saves it into a local SQLite database (`aiotdb.db`).
 - **SQLite Database**: Stores the history of temperature and humidity readings along with a timestamp for future analysis.
 
+## Project Architecture
+
+```plaintext
+HW1/
+├── ESP32_DHT11_Python/
+│   └── ESP32_DHT11_Python.ino  # ESP32 firmware for reading DHT11 sensor data
+├── README.md                   # Project documentation
+├── aiotdb.db                   # SQLite database storing sensor readings
+├── esp32_to_sqlite.py          # Python script to receive data via Serial and store in DB
+├── result1.png                 # System execution screenshot 1
+├── result2.png                 # System execution screenshot 2
+└── result3.png                 # System execution screenshot 3
+```
+
+
 ## Hardware Requirements
 
 - **ESP32 Development Board**
