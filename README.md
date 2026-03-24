@@ -36,6 +36,6 @@ This project is an IoT (Internet of Things) system that reads temperature and hu
 
 Below are the screenshots of the system in action:
 
-![Screenshot 1](螢幕擷取畫面%202026-03-24%20110841.png)
-![Screenshot 2](螢幕擷取畫面%202026-03-24%20111259.png)
-![Screenshot 3](螢幕擷取畫面%202026-03-24%20111741.png)
+![Screenshot 1](result1.png)
+![Screenshot 2](result2.png)
+![Screenshot 3](result3.png)
